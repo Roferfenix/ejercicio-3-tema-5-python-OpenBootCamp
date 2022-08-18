@@ -1,0 +1,5 @@
+def es_bisiesto(año: int):
+    return (año % 4 == 0) and (año % 100 != 0 or año % 400 == 0)
+
+
+print(es_bisiesto(2000))
